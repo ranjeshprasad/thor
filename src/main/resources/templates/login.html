@@ -1,0 +1,29 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="header :: html_header" />
+<body>
+<div class="container-fluid">
+<head th:replace="header :: header" />
+  <p> </p>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col">
+    <div class="form-group">
+      <label for="usr">User Id:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+      </div>
+      <div>
+      <button type="button" class="btn btn-success float-right">Login</button>
+      <a href="registartion"><button type="button" class="btn btn-link float-right">Create Account</button></a>
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+
+<div th:replace="footer :: html_footer" />
+</body>
+</html>
