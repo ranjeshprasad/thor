@@ -1,9 +1,9 @@
-package com.fis.innovate48.thor.registration.service;
+package com.fis.innovate48.thor.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.fis.innovate48.thor.registration.repository.UserRepository;
+import com.fis.innovate48.thor.repository.UserRepository;
 
 @Service
 public class UserService {

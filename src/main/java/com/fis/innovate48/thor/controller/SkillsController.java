@@ -1,11 +1,11 @@
-package com.fis.innovate48.thor.skills.controller;
+package com.fis.innovate48.thor.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.fis.innovate48.thor.skills.service.SkillsService;
+import com.fis.innovate48.thor.service.SkillsService;
 
 @Controller
 public class SkillsController {

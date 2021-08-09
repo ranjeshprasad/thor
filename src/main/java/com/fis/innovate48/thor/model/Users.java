@@ -1,4 +1,4 @@
-package com.fis.innovate48.thor.registration.model;
+package com.fis.innovate48.thor.model;
 
 import java.util.Date;
 

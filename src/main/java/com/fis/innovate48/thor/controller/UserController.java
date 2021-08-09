@@ -1,4 +1,4 @@
-package com.fis.innovate48.thor.registration.controller;
+package com.fis.innovate48.thor.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
