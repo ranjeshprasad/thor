@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.fis.innovate48.thor.dto.UsersDto;
 import com.fis.innovate48.thor.model.Users;
-import com.fis.innovate48.thor.registration.dto.UsersDto;
 import com.fis.innovate48.thor.repository.UserRepository;
 
 

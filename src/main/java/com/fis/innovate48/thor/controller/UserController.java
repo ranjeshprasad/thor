@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.fis.innovate48.thor.registration.dto.UsersDto;
+import com.fis.innovate48.thor.dto.UsersDto;
 import com.fis.innovate48.thor.service.UserService;
 
 import lombok.extern.slf4j.Slf4j;
